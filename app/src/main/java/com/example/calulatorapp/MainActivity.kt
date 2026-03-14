@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
             val sum= num1 + num2
 
-            resultText.text ="Result: $sum"
+            resultText.text ="Result= $sum"
         }
 
         btnSubtract.setOnClickListener {
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
             val result= num1 * num2
 
-            resultText.text="Result: $result"
+            resultText.text="Result= $result"
         }
 
         btnDivide.setOnClickListener {
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
             val result= num1/num2
 
-            resultText.text="Result: $result"
+            resultText.text="Result= $result"
 
         }
     }
